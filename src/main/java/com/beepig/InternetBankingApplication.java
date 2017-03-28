@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class InternetBankingApplication {
 
     public static void main(String[] args) {
+        int x =10;
         SpringApplication.run(InternetBankingApplication.class, args);
     }
 }
